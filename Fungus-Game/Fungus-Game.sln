@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fungus-Game", "Assembly-CSharp.csproj", "{A1707EAD-BC3D-DEB1-5123-1079BF8C22EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fungus-Game", "Assembly-CSharp-Editor.csproj", "{01FA46C0-55CF-188E-7AAA-9B72D887392D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1707EAD-BC3D-DEB1-5123-1079BF8C22EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1707EAD-BC3D-DEB1-5123-1079BF8C22EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1707EAD-BC3D-DEB1-5123-1079BF8C22EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1707EAD-BC3D-DEB1-5123-1079BF8C22EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01FA46C0-55CF-188E-7AAA-9B72D887392D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01FA46C0-55CF-188E-7AAA-9B72D887392D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01FA46C0-55CF-188E-7AAA-9B72D887392D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01FA46C0-55CF-188E-7AAA-9B72D887392D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
