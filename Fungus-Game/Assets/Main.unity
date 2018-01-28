@@ -511,9 +511,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: -17}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &274475106
 MonoBehaviour:
@@ -1518,9 +1518,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: -17}
+  m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &389943189
 MonoBehaviour:
@@ -1561,7 +1561,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 798906878}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.213
+  m_Size: 0.193
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1710,7 +1710,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2186,9 +2186,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 20}
+  m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &493683500
 MonoBehaviour:
@@ -3349,8 +3349,8 @@ RectTransform:
   m_Father: {fileID: 2068155805}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.787}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5399,6 +5399,36 @@ GameObject:
   - component: {fileID: 1559277735}
   - component: {fileID: 1559277734}
   - component: {fileID: 1559277733}
+  - component: {fileID: 1559277784}
+  - component: {fileID: 1559277783}
+  - component: {fileID: 1559277782}
+  - component: {fileID: 1559277781}
+  - component: {fileID: 1559277780}
+  - component: {fileID: 1559277779}
+  - component: {fileID: 1559277778}
+  - component: {fileID: 1559277777}
+  - component: {fileID: 1559277776}
+  - component: {fileID: 1559277775}
+  - component: {fileID: 1559277774}
+  - component: {fileID: 1559277773}
+  - component: {fileID: 1559277772}
+  - component: {fileID: 1559277771}
+  - component: {fileID: 1559277770}
+  - component: {fileID: 1559277769}
+  - component: {fileID: 1559277768}
+  - component: {fileID: 1559277767}
+  - component: {fileID: 1559277766}
+  - component: {fileID: 1559277765}
+  - component: {fileID: 1559277764}
+  - component: {fileID: 1559277763}
+  - component: {fileID: 1559277762}
+  - component: {fileID: 1559277761}
+  - component: {fileID: 1559277760}
+  - component: {fileID: 1559277759}
+  - component: {fileID: 1559277758}
+  - component: {fileID: 1559277757}
+  - component: {fileID: 1559277712}
+  - component: {fileID: 1559277661}
   m_Layer: 0
   m_Name: StartingFlowchart
   m_TagString: Untagged
@@ -5419,7 +5449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -6907.698, y: 101.265976}
+  scrollPos: {x: -7023.213, y: 97.817696}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 440
@@ -5430,10 +5460,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1559277658}
-  selectedCommands:
-  - {fileID: 1559277660}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1559277380}
   - {fileID: 1559277396}
@@ -12676,6 +12704,30 @@ MonoBehaviour:
   logMessage:
     stringRef: {fileID: 0}
     stringVal: FINAL--blocked transmission. OU = {$OU}
+--- !u!114 &1559277661
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 629
+  indentLevel: 0
+  text: ' '
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &1559277662
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12791,7 +12843,7 @@ MonoBehaviour:
   itemId: 549
   indentLevel: 0
   targetFlowchart: {fileID: 1559277356}
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 1559277742}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -13859,7 +13911,31 @@ MonoBehaviour:
   logType: 0
   logMessage:
     stringRef: {fileID: 0}
-    stringVal: FINAL--sent transmission. OU = {$OU}.
+    stringVal: FINAL--sent transmission. OU = {$OU}. Calling Bad Ending
+--- !u!114 &1559277712
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 628
+  indentLevel: 0
+  text: ' '
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &1559277713
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14411,7 +14487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 576
-  indentLevel: 0
+  indentLevel: 1
   textObject: {fileID: 1993432748}
   text:
     stringRef: {fileID: 0}
@@ -14471,7 +14547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 574
-  indentLevel: 0
+  indentLevel: 1
   textObject: {fileID: 1993432748}
   text:
     stringRef: {fileID: 0}
@@ -14588,14 +14664,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 8090.9653
-    y: 53.280624
-    width: 181.03448
+    x: 8175.4473
+    y: 1.5564852
+    width: 130.17242
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 599
-  blockName: Transmission20 (Copy)1
+  blockName: BAD END (Sent)
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -14706,8 +14782,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 8269.011
-    y: 2.8458405
+    x: 8586.254
+    y: 18.363083
     width: 135.34483
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -14819,8 +14895,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 8269.511
-    y: 110.48436
+    x: 8586.754
+    y: 126.00159
     width: 137.06897
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -14934,6 +15010,768 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &1559277757
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 627
+  indentLevel: 0
+--- !u!114 &1559277758
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 626
+  indentLevel: 1
+  textObject: {fileID: 1993432748}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 'FROM: RESIDENT UNIT, ZONE A
+
+      TO: RESIDENT UNIT, ZONE A
+
+
+      My love,
+
+
+      I''m sending you this as a transmission because I''m afraid it''ll be lost in
+      the mail. Or because I''m just a coward. I can''t go on like this, knowing that
+      I let five people die. I know what you''re going to say, but that''s the truth.
+      I could''ve done something, but I didn''t because I''m just a goddamn coward.
+      If anyone knew, they''d call me a murderer. FIVE people. The feds have been
+      breathing down my neck nonstop in the interrogation room, and all I can remember
+      is the blood... I just can''t do this knowing that I sat back and let all those
+      people die. I can''t live with myself like this... Ok, this is too long and
+      pathetic, so I guess goodbye and I wish you all the best. I love you and never
+      stopped. Please don''t forget that, and may you find peace.
+
+
+      Forever Your Snookums'
+  description: 
+  clearText: 1
+  waitUntilFinished: 1
+  textColor: 0
+  setAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  setColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1559277759
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 625
+  indentLevel: 0
+--- !u!114 &1559277760
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 624
+  indentLevel: 1
+  textObject: {fileID: 1993432748}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 'FROM: RESIDENT UNIT, ZONE A
+
+      TO: RESIDENT UNIT, ZONE A
+
+
+      My love,
+
+
+      I''m sending you this as a transmission because I''m afraid it''ll be lost in
+      the mail. Or because I''m just a coward. I can''t go on like this, knowing that
+      I was the one who killed that little girl. I know what you''re going to say,
+      but that''s the truth. When I pulled that lever, when I switched to the other
+      track, I knew what I was doing. Everyone is calling me a murderer. The feds
+      have been breathing down my neck nonstop in the interrogation room, and all
+      I can remember is the blood... I just can''t do this with myself and everyone
+      around me knowing that I chose to kill her. She had a name, a family who loved
+      her, a future ahead of her... I can''t live with myself like this... Ok, this
+      is too long and pathetic, so I guess goodbye and I wish you all the best. I
+      love you and never stopped. Please don''t forget that, and may you find peace.
+
+
+      Forever Your Snookums (FYS is acronym for rebel group Free YourSelf)'
+  description: 
+  clearText: 1
+  waitUntilFinished: 1
+  textColor: 0
+  setAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  setColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1559277761
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 623
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 1559277532}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &1559277762
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 622
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 2051593603}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1559277763
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b115619cb83b4d6ab8047d0e9407403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 621
+  indentLevel: 0
+  isStartPoint: 0
+  keyMode: 0
+  customKey: 
+  keySeparator: _
+  descriptionMode: 0
+  customDescription: 
+  fireEvent: 1
+  resumeOnLoad: 1
+--- !u!114 &1559277764
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 8176.2285
+    y: 183.90643
+    width: 187.93105
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 632
+  blockName: FAIL END (TooHighUnrest)
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1559277763}
+  - {fileID: 1559277762}
+  - {fileID: 1559277761}
+  - {fileID: 1559277760}
+  - {fileID: 1559277759}
+  - {fileID: 1559277758}
+  - {fileID: 1559277757}
+  - {fileID: 1559277712}
+  - {fileID: 1559277661}
+--- !u!114 &1559277765
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 619
+  indentLevel: 0
+  text: ' '
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1559277766
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 618
+  indentLevel: 0
+  text: ' '
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1559277767
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 617
+  indentLevel: 0
+--- !u!114 &1559277768
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 616
+  indentLevel: 1
+  textObject: {fileID: 1993432748}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 'FROM: RESIDENT UNIT, ZONE A
+
+      TO: RESIDENT UNIT, ZONE A
+
+
+      My love,
+
+
+      I''m sending you this as a transmission because I''m afraid it''ll be lost in
+      the mail. Or because I''m just a coward. I can''t go on like this, knowing that
+      I let five people die. I know what you''re going to say, but that''s the truth.
+      I could''ve done something, but I didn''t because I''m just a goddamn coward.
+      If anyone knew, they''d call me a murderer. FIVE people. The feds have been
+      breathing down my neck nonstop in the interrogation room, and all I can remember
+      is the blood... I just can''t do this knowing that I sat back and let all those
+      people die. I can''t live with myself like this... Ok, this is too long and
+      pathetic, so I guess goodbye and I wish you all the best. I love you and never
+      stopped. Please don''t forget that, and may you find peace.
+
+
+      Forever Your Snookums'
+  description: 
+  clearText: 1
+  waitUntilFinished: 1
+  textColor: 0
+  setAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  setColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1559277769
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 615
+  indentLevel: 0
+--- !u!114 &1559277770
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 614
+  indentLevel: 1
+  textObject: {fileID: 1993432748}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 'FROM: RESIDENT UNIT, ZONE A
+
+      TO: RESIDENT UNIT, ZONE A
+
+
+      My love,
+
+
+      I''m sending you this as a transmission because I''m afraid it''ll be lost in
+      the mail. Or because I''m just a coward. I can''t go on like this, knowing that
+      I was the one who killed that little girl. I know what you''re going to say,
+      but that''s the truth. When I pulled that lever, when I switched to the other
+      track, I knew what I was doing. Everyone is calling me a murderer. The feds
+      have been breathing down my neck nonstop in the interrogation room, and all
+      I can remember is the blood... I just can''t do this with myself and everyone
+      around me knowing that I chose to kill her. She had a name, a family who loved
+      her, a future ahead of her... I can''t live with myself like this... Ok, this
+      is too long and pathetic, so I guess goodbye and I wish you all the best. I
+      love you and never stopped. Please don''t forget that, and may you find peace.
+
+
+      Forever Your Snookums (FYS is acronym for rebel group Free YourSelf)'
+  description: 
+  clearText: 1
+  waitUntilFinished: 1
+  textColor: 0
+  setAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  setColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1559277771
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 613
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 1559277532}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &1559277772
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 612
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 2051593603}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1559277773
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b115619cb83b4d6ab8047d0e9407403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 611
+  indentLevel: 0
+  isStartPoint: 0
+  keyMode: 0
+  customKey: 
+  keySeparator: _
+  descriptionMode: 0
+  customDescription: 
+  fireEvent: 1
+  resumeOnLoad: 1
+--- !u!114 &1559277774
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 8175.3677
+    y: 125.2858
+    width: 174.13794
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 631
+  blockName: GOOD END (LowUnrest)
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1559277773}
+  - {fileID: 1559277772}
+  - {fileID: 1559277771}
+  - {fileID: 1559277770}
+  - {fileID: 1559277769}
+  - {fileID: 1559277768}
+  - {fileID: 1559277767}
+  - {fileID: 1559277766}
+  - {fileID: 1559277765}
+--- !u!114 &1559277775
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 609
+  indentLevel: 0
+  text: ' '
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1559277776
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 608
+  indentLevel: 0
+  text: ' '
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1559277777
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 607
+  indentLevel: 0
+--- !u!114 &1559277778
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 606
+  indentLevel: 1
+  textObject: {fileID: 1993432748}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 'FROM: RESIDENT UNIT, ZONE A
+
+      TO: RESIDENT UNIT, ZONE A
+
+
+      My love,
+
+
+      I''m sending you this as a transmission because I''m afraid it''ll be lost in
+      the mail. Or because I''m just a coward. I can''t go on like this, knowing that
+      I let five people die. I know what you''re going to say, but that''s the truth.
+      I could''ve done something, but I didn''t because I''m just a goddamn coward.
+      If anyone knew, they''d call me a murderer. FIVE people. The feds have been
+      breathing down my neck nonstop in the interrogation room, and all I can remember
+      is the blood... I just can''t do this knowing that I sat back and let all those
+      people die. I can''t live with myself like this... Ok, this is too long and
+      pathetic, so I guess goodbye and I wish you all the best. I love you and never
+      stopped. Please don''t forget that, and may you find peace.
+
+
+      Forever Your Snookums'
+  description: 
+  clearText: 1
+  waitUntilFinished: 1
+  textColor: 0
+  setAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  setColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1559277779
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 605
+  indentLevel: 0
+--- !u!114 &1559277780
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 604
+  indentLevel: 1
+  textObject: {fileID: 1993432748}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 'FROM: RESIDENT UNIT, ZONE A
+
+      TO: RESIDENT UNIT, ZONE A
+
+
+      My love,
+
+
+      I''m sending you this as a transmission because I''m afraid it''ll be lost in
+      the mail. Or because I''m just a coward. I can''t go on like this, knowing that
+      I was the one who killed that little girl. I know what you''re going to say,
+      but that''s the truth. When I pulled that lever, when I switched to the other
+      track, I knew what I was doing. Everyone is calling me a murderer. The feds
+      have been breathing down my neck nonstop in the interrogation room, and all
+      I can remember is the blood... I just can''t do this with myself and everyone
+      around me knowing that I chose to kill her. She had a name, a family who loved
+      her, a future ahead of her... I can''t live with myself like this... Ok, this
+      is too long and pathetic, so I guess goodbye and I wish you all the best. I
+      love you and never stopped. Please don''t forget that, and may you find peace.
+
+
+      Forever Your Snookums (FYS is acronym for rebel group Free YourSelf)'
+  description: 
+  clearText: 1
+  waitUntilFinished: 1
+  textColor: 0
+  setAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  setColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1559277781
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 603
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 1559277532}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &1559277782
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 602
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 2051593603}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1559277783
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b115619cb83b4d6ab8047d0e9407403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 601
+  indentLevel: 0
+  isStartPoint: 0
+  keyMode: 0
+  customKey: 
+  keySeparator: _
+  descriptionMode: 0
+  customDescription: 
+  fireEvent: 1
+  resumeOnLoad: 1
+--- !u!114 &1559277784
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 8177.525
+    y: 63.216866
+    width: 169.82759
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 630
+  blockName: BEST END (HighUnrest)
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1559277783}
+  - {fileID: 1559277782}
+  - {fileID: 1559277781}
+  - {fileID: 1559277780}
+  - {fileID: 1559277779}
+  - {fileID: 1559277778}
+  - {fileID: 1559277777}
+  - {fileID: 1559277776}
+  - {fileID: 1559277775}
 --- !u!1 &1585102458
 GameObject:
   m_ObjectHideFlags: 0
@@ -16366,7 +17204,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2051593604
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16385,8 +17223,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5, y: 105}
-  m_SizeDelta: {x: 550, y: 230}
+  m_AnchoredPosition: {x: -4, y: 115}
+  m_SizeDelta: {x: 550, y: 210}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2051593605
 MonoBehaviour:
