@@ -511,9 +511,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: -17}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &274475106
 MonoBehaviour:
@@ -1518,9 +1518,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 0}
+  m_SizeDelta: {x: 20, y: -17}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &389943189
 MonoBehaviour:
@@ -1561,7 +1561,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 798906878}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.193
+  m_Size: 0.386
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1710,7 +1710,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.99999946, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2186,9 +2186,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 20}
+  m_SizeDelta: {x: -17, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &493683500
 MonoBehaviour:
@@ -2229,7 +2229,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 396344359}
   m_Direction: 0
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.9999998
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3349,8 +3349,8 @@ RectTransform:
   m_Father: {fileID: 2068155805}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.61399996}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4155,11 +4155,11 @@ RectTransform:
   m_Father: {fileID: 274475105}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000009298325, y: -0.000013362666}
-  m_SizeDelta: {x: 0, y: 1000}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.000013362666}
+  m_SizeDelta: {x: 532, y: 500}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1241705805
 GameObject:
   m_ObjectHideFlags: 0
@@ -5392,24 +5392,38 @@ GameObject:
   - component: {fileID: 1559277742}
   - component: {fileID: 1559277741}
   - component: {fileID: 1559277740}
-  - component: {fileID: 1559277739}
-  - component: {fileID: 1559277738}
-  - component: {fileID: 1559277737}
   - component: {fileID: 1559277736}
-  - component: {fileID: 1559277735}
-  - component: {fileID: 1559277734}
-  - component: {fileID: 1559277733}
   - component: {fileID: 1559277784}
   - component: {fileID: 1559277783}
   - component: {fileID: 1559277782}
+  - component: {fileID: 1559277774}
+  - component: {fileID: 1559277764}
+  - component: {fileID: 1559277739}
+  - component: {fileID: 1559277737}
+  - component: {fileID: 1559277738}
+  - component: {fileID: 1559277735}
+  - component: {fileID: 1559277734}
+  - component: {fileID: 1559277733}
   - component: {fileID: 1559277781}
   - component: {fileID: 1559277780}
+  - component: {fileID: 1559277775}
   - component: {fileID: 1559277779}
   - component: {fileID: 1559277778}
   - component: {fileID: 1559277777}
   - component: {fileID: 1559277776}
-  - component: {fileID: 1559277775}
-  - component: {fileID: 1559277774}
+  - component: {fileID: 1559277786}
+  - component: {fileID: 1559277785}
+  - component: {fileID: 1559277766}
+  - component: {fileID: 1559277765}
+  - component: {fileID: 1559277763}
+  - component: {fileID: 1559277762}
+  - component: {fileID: 1559277761}
+  - component: {fileID: 1559277758}
+  - component: {fileID: 1559277757}
+  - component: {fileID: 1559277712}
+  - component: {fileID: 1559277789}
+  - component: {fileID: 1559277788}
+  - component: {fileID: 1559277787}
   - component: {fileID: 1559277773}
   - component: {fileID: 1559277772}
   - component: {fileID: 1559277771}
@@ -5417,17 +5431,6 @@ GameObject:
   - component: {fileID: 1559277769}
   - component: {fileID: 1559277768}
   - component: {fileID: 1559277767}
-  - component: {fileID: 1559277766}
-  - component: {fileID: 1559277765}
-  - component: {fileID: 1559277764}
-  - component: {fileID: 1559277763}
-  - component: {fileID: 1559277762}
-  - component: {fileID: 1559277761}
-  - component: {fileID: 1559277760}
-  - component: {fileID: 1559277759}
-  - component: {fileID: 1559277758}
-  - component: {fileID: 1559277757}
-  - component: {fileID: 1559277712}
   - component: {fileID: 1559277661}
   m_Layer: 0
   m_Name: StartingFlowchart
@@ -5449,19 +5452,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -7023.213, y: 97.817696}
+  scrollPos: {x: -6648.75, y: 77.67666}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 440
-  zoom: 0.58
+  zoom: 0.59
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1559277774}
+  selectedCommands:
+  - {fileID: 1559277757}
   variables:
   - {fileID: 1559277380}
   - {fileID: 1559277396}
@@ -5688,7 +5693,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1087.0508
     y: 91.284424
-    width: 128.44827
+    width: 129.66101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5757,7 +5762,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 585
     y: 89
-    width: 140.51724
+    width: 142.3729
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5870,7 +5875,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 397
     y: 156
-    width: 145.68967
+    width: 145.76273
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6008,7 +6013,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 251.5
     y: 155
-    width: 137.06897
+    width: 139.8305
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6074,7 +6079,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1483.938
     y: 87.293816
-    width: 128.44827
+    width: 129.66101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6341,7 +6346,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 759.0737
     y: 88.21602
-    width: 135.34483
+    width: 137.28815
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7708,7 +7713,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1922.1781
     y: 85.7063
-    width: 128.44827
+    width: 129.66101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7809,7 +7814,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2338.9736
     y: 92.87021
-    width: 128.44827
+    width: 129.66101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8230,7 +8235,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2708.4631
     y: 40.32782
-    width: 151.72415
+    width: 152.54237
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8307,7 +8312,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2699.9932
     y: 148.80243
-    width: 168.96552
+    width: 170.33899
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8579,7 +8584,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2905.077
     y: 97.954956
-    width: 128.44827
+    width: 129.66101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8983,7 +8988,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3276.3965
     y: 96.59903
-    width: 128.44827
+    width: 129.66101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9620,7 +9625,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3808.8577
     y: 76.26004
-    width: 128.44827
+    width: 129.66101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9794,7 +9799,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4904.6826
     y: 68.497604
-    width: 135.34483
+    width: 136.44067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10054,7 +10059,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3606.7708
     y: 148.80241
-    width: 168.96552
+    width: 170.33899
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10384,7 +10389,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4706.02
     y: 68.49759
-    width: 135.34483
+    width: 136.44067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10452,7 +10457,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5276.354
     y: 60.49751
-    width: 135.34483
+    width: 136.44067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10570,7 +10575,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 7412.788
     y: 53.708515
-    width: 135.34483
+    width: 136.44067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10673,7 +10678,7 @@ MonoBehaviour:
       love you and never stopped. Please don''t forget that, and may you find peace.
 
 
-      Forever Your Snookums (FYS is acronym for rebel group Free YourSelf)'
+      Forever Your Snookums'
   description: 
   clearText: 1
   waitUntilFinished: 1
@@ -10893,7 +10898,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4352.3506
     y: 71.16429
-    width: 128.44827
+    width: 129.66101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11278,7 +11283,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3980.6868
     y: 75.164314
-    width: 128.44827
+    width: 129.66101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11825,7 +11830,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5666.483
     y: 58.46856
-    width: 135.34483
+    width: 136.44067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12204,7 +12209,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5481.3315
     y: 59.373535
-    width: 135.34483
+    width: 136.44067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12602,7 +12607,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 7224.345
     y: 54.96939
-    width: 135.34483
+    width: 136.44067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12706,28 +12711,30 @@ MonoBehaviour:
     stringVal: FINAL--blocked transmission. OU = {$OU}
 --- !u!114 &1559277661
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 629
+  itemId: 669
   indentLevel: 0
-  text: ' '
+  storyText: N09SS9MSN1RT. We need to see you.
   description: 
-  targetBlock: {fileID: 0}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  character: {fileID: 597069467}
+  portrait: {fileID: 21300000, guid: 0ba5fa99147d14b29b0a32d25974aa1f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1559277662
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12764,7 +12771,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 7763.382
     y: 55.004745
-    width: 135.34483
+    width: 136.44067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12924,7 +12931,8 @@ MonoBehaviour:
       They invade our privacy, silence our voices, and chain us down. They decide
       who gets heard and who suffers in silence. Our government calls their program
       "Skylight". Every time you send a message, Skylight will see it. Don''t let
-      them get away with this. We will not stop fighting for our rights!'
+      them get away with this. Fight with us, Free YourSelf, and together, we can
+      claim our rights back!'
   description: 
   clearText: 1
   waitUntilFinished: 1
@@ -12989,9 +12997,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 6878.1777
+    x: 6879.8726
     y: 54.969414
-    width: 135.34483
+    width: 136.44067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13372,7 +13380,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 6548.3315
     y: 56.461975
-    width: 135.34483
+    width: 136.44067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13754,7 +13762,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 6343.9497
     y: 56.57086
-    width: 135.34483
+    width: 136.44067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13914,28 +13922,36 @@ MonoBehaviour:
     stringVal: FINAL--sent transmission. OU = {$OU}. Calling Bad Ending
 --- !u!114 &1559277712
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 628
+  itemId: 658
   indentLevel: 0
-  text: ' '
+  textObject: {fileID: 2042557009}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 'Thank you for playing.
+
+
+      - Lily Peng: Writer, Programmer, Unity noob
+
+      - Colm Eccles: Artist, Sound Designer, Cat Transformer'
   description: 
-  targetBlock: {fileID: 0}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  clearText: 1
+  waitUntilFinished: 1
+  textColor: 0
+  setAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  setColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1559277713
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14133,7 +14149,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 6005.4893
     y: 53.49392
-    width: 135.34483
+    width: 136.44067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14416,65 +14432,74 @@ MonoBehaviour:
   resumeOnLoad: 1
 --- !u!114 &1559277733
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 579
+  itemId: 639
   indentLevel: 0
-  text: ' '
+  textObject: {fileID: 2042557009}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 'Thank you for playing.
+
+
+      - Lily Peng: Writer, Programmer, Unity noob
+
+      - Colm Eccles: Artist, Sound Designer, Cat Transformer'
   description: 
-  targetBlock: {fileID: 0}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  clearText: 1
+  waitUntilFinished: 1
+  textColor: 0
+  setAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  setColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1559277734
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 578
+  itemId: 637
   indentLevel: 0
-  text: ' '
-  description: 
-  targetBlock: {fileID: 0}
-  hideIfVisited: 0
-  interactable:
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 2042557009}
+  activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1559277735
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 577
+  itemId: 636
   indentLevel: 0
+  duration: 5
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
 --- !u!114 &1559277736
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14487,31 +14512,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 576
-  indentLevel: 1
+  indentLevel: 0
   textObject: {fileID: 1993432748}
   text:
     stringRef: {fileID: 0}
-    stringVal: 'FROM: RESIDENT UNIT, ZONE A
-
-      TO: RESIDENT UNIT, ZONE A
-
-
-      My love,
-
-
-      I''m sending you this as a transmission because I''m afraid it''ll be lost in
-      the mail. Or because I''m just a coward. I can''t go on like this, knowing that
-      I let five people die. I know what you''re going to say, but that''s the truth.
-      I could''ve done something, but I didn''t because I''m just a goddamn coward.
-      If anyone knew, they''d call me a murderer. FIVE people. The feds have been
-      breathing down my neck nonstop in the interrogation room, and all I can remember
-      is the blood... I just can''t do this knowing that I sat back and let all those
-      people die. I can''t live with myself like this... Ok, this is too long and
-      pathetic, so I guess goodbye and I wish you all the best. I love you and never
-      stopped. Please don''t forget that, and may you find peace.
-
-
-      Forever Your Snookums'
+    stringVal: Welcome back, N09SS9MSN1RT.
   description: 
   clearText: 1
   waitUntilFinished: 1
@@ -14524,92 +14529,57 @@ MonoBehaviour:
     colorVal: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1559277737
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 575
+  itemId: 634
   indentLevel: 0
+  duration: 1
+  fadeOut: 0
+  targetView: {fileID: 1953206147}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 378967307}
 --- !u!114 &1559277738
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 574
-  indentLevel: 1
-  textObject: {fileID: 1993432748}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: 'FROM: RESIDENT UNIT, ZONE A
-
-      TO: RESIDENT UNIT, ZONE A
-
-
-      My love,
-
-
-      I''m sending you this as a transmission because I''m afraid it''ll be lost in
-      the mail. Or because I''m just a coward. I can''t go on like this, knowing that
-      I was the one who killed that little girl. I know what you''re going to say,
-      but that''s the truth. When I pulled that lever, when I switched to the other
-      track, I knew what I was doing. Everyone is calling me a murderer. The feds
-      have been breathing down my neck nonstop in the interrogation room, and all
-      I can remember is the blood... I just can''t do this with myself and everyone
-      around me knowing that I chose to kill her. She had a name, a family who loved
-      her, a future ahead of her... I can''t live with myself like this... Ok, this
-      is too long and pathetic, so I guess goodbye and I wish you all the best. I
-      love you and never stopped. Please don''t forget that, and may you find peace.
-
-
-      Forever Your Snookums (FYS is acronym for rebel group Free YourSelf)'
-  description: 
-  clearText: 1
-  waitUntilFinished: 1
-  textColor: 0
-  setAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  setColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  itemId: 635
+  indentLevel: 0
+  commenterName: 
+  commentText: Add employee of the month badge
 --- !u!114 &1559277739
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 573
+  itemId: 633
   indentLevel: 0
-  compareOperator: 0
-  variable: {fileID: 1559277532}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
+  duration: 3
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
 --- !u!114 &1559277740
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14665,8 +14635,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 8175.4473
-    y: 1.5564852
-    width: 130.17242
+    y: 5.6381183
+    width: 130.50848
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14678,11 +14648,12 @@ MonoBehaviour:
   - {fileID: 1559277741}
   - {fileID: 1559277740}
   - {fileID: 1559277739}
+  - {fileID: 1559277736}
   - {fileID: 1559277738}
   - {fileID: 1559277737}
-  - {fileID: 1559277736}
   - {fileID: 1559277735}
   - {fileID: 1559277734}
+  - {fileID: 1559277785}
   - {fileID: 1559277733}
 --- !u!114 &1559277743
 MonoBehaviour:
@@ -14784,7 +14755,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 8586.254
     y: 18.363083
-    width: 135.34483
+    width: 134.74576
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14897,7 +14868,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 8586.754
     y: 126.00159
-    width: 137.06897
+    width: 137.28815
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15012,155 +14983,34 @@ MonoBehaviour:
     stringVal: 
 --- !u!114 &1559277757
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 627
+  itemId: 657
   indentLevel: 0
+  textObject: {fileID: 2042557009}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: R Ending.
+  description: 
+  clearText: 1
+  waitUntilFinished: 1
+  textColor: 0
+  setAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  setColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1559277758
 MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1559277355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 626
-  indentLevel: 1
-  textObject: {fileID: 1993432748}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: 'FROM: RESIDENT UNIT, ZONE A
-
-      TO: RESIDENT UNIT, ZONE A
-
-
-      My love,
-
-
-      I''m sending you this as a transmission because I''m afraid it''ll be lost in
-      the mail. Or because I''m just a coward. I can''t go on like this, knowing that
-      I let five people die. I know what you''re going to say, but that''s the truth.
-      I could''ve done something, but I didn''t because I''m just a goddamn coward.
-      If anyone knew, they''d call me a murderer. FIVE people. The feds have been
-      breathing down my neck nonstop in the interrogation room, and all I can remember
-      is the blood... I just can''t do this knowing that I sat back and let all those
-      people die. I can''t live with myself like this... Ok, this is too long and
-      pathetic, so I guess goodbye and I wish you all the best. I love you and never
-      stopped. Please don''t forget that, and may you find peace.
-
-
-      Forever Your Snookums'
-  description: 
-  clearText: 1
-  waitUntilFinished: 1
-  textColor: 0
-  setAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  setColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &1559277759
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1559277355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 625
-  indentLevel: 0
---- !u!114 &1559277760
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1559277355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 624
-  indentLevel: 1
-  textObject: {fileID: 1993432748}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: 'FROM: RESIDENT UNIT, ZONE A
-
-      TO: RESIDENT UNIT, ZONE A
-
-
-      My love,
-
-
-      I''m sending you this as a transmission because I''m afraid it''ll be lost in
-      the mail. Or because I''m just a coward. I can''t go on like this, knowing that
-      I was the one who killed that little girl. I know what you''re going to say,
-      but that''s the truth. When I pulled that lever, when I switched to the other
-      track, I knew what I was doing. Everyone is calling me a murderer. The feds
-      have been breathing down my neck nonstop in the interrogation room, and all
-      I can remember is the blood... I just can''t do this with myself and everyone
-      around me knowing that I chose to kill her. She had a name, a family who loved
-      her, a future ahead of her... I can''t live with myself like this... Ok, this
-      is too long and pathetic, so I guess goodbye and I wish you all the best. I
-      love you and never stopped. Please don''t forget that, and may you find peace.
-
-
-      Forever Your Snookums (FYS is acronym for rebel group Free YourSelf)'
-  description: 
-  clearText: 1
-  waitUntilFinished: 1
-  textColor: 0
-  setAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  setColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &1559277761
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1559277355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 623
-  indentLevel: 0
-  compareOperator: 0
-  variable: {fileID: 1559277532}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
---- !u!114 &1559277762
-MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
@@ -15169,36 +15019,75 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 622
+  itemId: 656
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 2051593603}
+    gameObjectVal: {fileID: 2042557009}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &1559277763
+--- !u!114 &1559277761
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b115619cb83b4d6ab8047d0e9407403, type: 3}
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 621
+  itemId: 653
   indentLevel: 0
-  isStartPoint: 0
-  keyMode: 0
-  customKey: 
-  keySeparator: _
-  descriptionMode: 0
-  customDescription: 
-  fireEvent: 1
-  resumeOnLoad: 1
+  commenterName: 
+  commentText: Smashed View
+--- !u!114 &1559277762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 652
+  indentLevel: 0
+  textObject: {fileID: 1993432748}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 
+  description: 
+  clearText: 1
+  waitUntilFinished: 1
+  textColor: 0
+  setAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  setColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1559277763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 651
+  indentLevel: 0
+  duration: 3
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
 --- !u!114 &1559277764
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15214,7 +15103,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 8176.2285
     y: 183.90643
-    width: 187.93105
+    width: 189.83052
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15223,79 +15112,60 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1559277763}
-  - {fileID: 1559277762}
-  - {fileID: 1559277761}
-  - {fileID: 1559277760}
-  - {fileID: 1559277759}
-  - {fileID: 1559277758}
-  - {fileID: 1559277757}
-  - {fileID: 1559277712}
-  - {fileID: 1559277661}
+  - {fileID: 1559277789}
+  - {fileID: 1559277788}
+  - {fileID: 1559277787}
+  - {fileID: 1559277773}
+  - {fileID: 1559277772}
+  - {fileID: 1559277771}
+  - {fileID: 1559277770}
+  - {fileID: 1559277769}
+  - {fileID: 1559277768}
+  - {fileID: 1559277767}
 --- !u!114 &1559277765
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 619
+  itemId: 650
   indentLevel: 0
-  text: ' '
-  description: 
-  targetBlock: {fileID: 0}
-  hideIfVisited: 0
-  interactable:
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 2051593603}
+  activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1559277766
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b115619cb83b4d6ab8047d0e9407403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 618
+  itemId: 649
   indentLevel: 0
-  text: ' '
-  description: 
-  targetBlock: {fileID: 0}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  isStartPoint: 0
+  keyMode: 0
+  customKey: 
+  keySeparator: _
+  descriptionMode: 0
+  customDescription: 
+  fireEvent: 1
+  resumeOnLoad: 1
 --- !u!114 &1559277767
 MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1559277355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 617
-  indentLevel: 0
---- !u!114 &1559277768
-MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
@@ -15304,32 +15174,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 616
-  indentLevel: 1
-  textObject: {fileID: 1993432748}
+  itemId: 668
+  indentLevel: 0
+  textObject: {fileID: 2042557009}
   text:
     stringRef: {fileID: 0}
-    stringVal: 'FROM: RESIDENT UNIT, ZONE A
-
-      TO: RESIDENT UNIT, ZONE A
+    stringVal: 'Thank you for playing.
 
 
-      My love,
+      - Lily Peng: Writer, Programmer, Unity noob
 
-
-      I''m sending you this as a transmission because I''m afraid it''ll be lost in
-      the mail. Or because I''m just a coward. I can''t go on like this, knowing that
-      I let five people die. I know what you''re going to say, but that''s the truth.
-      I could''ve done something, but I didn''t because I''m just a goddamn coward.
-      If anyone knew, they''d call me a murderer. FIVE people. The feds have been
-      breathing down my neck nonstop in the interrogation room, and all I can remember
-      is the blood... I just can''t do this knowing that I sat back and let all those
-      people die. I can''t live with myself like this... Ok, this is too long and
-      pathetic, so I guess goodbye and I wish you all the best. I love you and never
-      stopped. Please don''t forget that, and may you find peace.
-
-
-      Forever Your Snookums'
+      - Colm Eccles: Artist, Sound Designer, Cat Transformer'
+  description: 
+  clearText: 1
+  waitUntilFinished: 1
+  textColor: 0
+  setAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  setColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1559277768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 667
+  indentLevel: 0
+  textObject: {fileID: 2042557009}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Free YourSelf Ending.
   description: 
   clearText: 1
   waitUntilFinished: 1
@@ -15342,20 +15224,80 @@ MonoBehaviour:
     colorVal: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1559277769
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 615
+  itemId: 666
   indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 2042557009}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1559277770
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 665
+  indentLevel: 0
+  duration: 5
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &1559277771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 664
+  indentLevel: 0
+  duration: 1
+  fadeOut: 0
+  targetView: {fileID: 1953206147}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 378967307}
+--- !u!114 &1559277772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 663
+  indentLevel: 0
+  commenterName: 
+  commentText: Smashed View
+--- !u!114 &1559277773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
@@ -15364,33 +15306,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 614
-  indentLevel: 1
+  itemId: 662
+  indentLevel: 0
   textObject: {fileID: 1993432748}
   text:
     stringRef: {fileID: 0}
-    stringVal: 'FROM: RESIDENT UNIT, ZONE A
+    stringVal: 'Y ou
 
-      TO: RESIDENT UNIT, ZONE A
+      cann ot
 
+      c on tr  ol
 
-      My love,
-
-
-      I''m sending you this as a transmission because I''m afraid it''ll be lost in
-      the mail. Or because I''m just a coward. I can''t go on like this, knowing that
-      I was the one who killed that little girl. I know what you''re going to say,
-      but that''s the truth. When I pulled that lever, when I switched to the other
-      track, I knew what I was doing. Everyone is calling me a murderer. The feds
-      have been breathing down my neck nonstop in the interrogation room, and all
-      I can remember is the blood... I just can''t do this with myself and everyone
-      around me knowing that I chose to kill her. She had a name, a family who loved
-      her, a future ahead of her... I can''t live with myself like this... Ok, this
-      is too long and pathetic, so I guess goodbye and I wish you all the best. I
-      love you and never stopped. Please don''t forget that, and may you find peace.
-
-
-      Forever Your Snookums (FYS is acronym for rebel group Free YourSelf)'
+      u      s'
   description: 
   clearText: 1
   waitUntilFinished: 1
@@ -15401,74 +15328,6 @@ MonoBehaviour:
   setColor:
     colorRef: {fileID: 0}
     colorVal: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &1559277771
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1559277355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 613
-  indentLevel: 0
-  compareOperator: 0
-  variable: {fileID: 1559277532}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
---- !u!114 &1559277772
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1559277355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 612
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 2051593603}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
---- !u!114 &1559277773
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1559277355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b115619cb83b4d6ab8047d0e9407403, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 611
-  indentLevel: 0
-  isStartPoint: 0
-  keyMode: 0
-  customKey: 
-  keySeparator: _
-  descriptionMode: 0
-  customDescription: 
-  fireEvent: 1
-  resumeOnLoad: 1
 --- !u!114 &1559277774
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15484,7 +15343,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 8175.3677
     y: 125.2858
-    width: 174.13794
+    width: 176.2712
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15493,79 +15352,33 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1559277773}
-  - {fileID: 1559277772}
-  - {fileID: 1559277771}
-  - {fileID: 1559277770}
-  - {fileID: 1559277769}
-  - {fileID: 1559277768}
-  - {fileID: 1559277767}
   - {fileID: 1559277766}
   - {fileID: 1559277765}
+  - {fileID: 1559277763}
+  - {fileID: 1559277762}
+  - {fileID: 1559277761}
+  - {fileID: 1559277661}
+  - {fileID: 1559277758}
+  - {fileID: 1559277757}
+  - {fileID: 1559277712}
 --- !u!114 &1559277775
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 609
+  itemId: 642
   indentLevel: 0
-  text: ' '
-  description: 
-  targetBlock: {fileID: 0}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  commenterName: 
+  commentText: Smashed View
 --- !u!114 &1559277776
 MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1559277355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 608
-  indentLevel: 0
-  text: ' '
-  description: 
-  targetBlock: {fileID: 0}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &1559277777
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1559277355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 607
-  indentLevel: 0
---- !u!114 &1559277778
-MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
@@ -15574,32 +15387,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 606
-  indentLevel: 1
-  textObject: {fileID: 1993432748}
+  itemId: 646
+  indentLevel: 0
+  textObject: {fileID: 2042557009}
   text:
     stringRef: {fileID: 0}
-    stringVal: 'FROM: RESIDENT UNIT, ZONE A
-
-      TO: RESIDENT UNIT, ZONE A
-
-
-      My love,
-
-
-      I''m sending you this as a transmission because I''m afraid it''ll be lost in
-      the mail. Or because I''m just a coward. I can''t go on like this, knowing that
-      I let five people die. I know what you''re going to say, but that''s the truth.
-      I could''ve done something, but I didn''t because I''m just a goddamn coward.
-      If anyone knew, they''d call me a murderer. FIVE people. The feds have been
-      breathing down my neck nonstop in the interrogation room, and all I can remember
-      is the blood... I just can''t do this knowing that I sat back and let all those
-      people die. I can''t live with myself like this... Ok, this is too long and
-      pathetic, so I guess goodbye and I wish you all the best. I love you and never
-      stopped. Please don''t forget that, and may you find peace.
-
-
-      Forever Your Snookums'
+    stringVal: Free YourSelf Ending.
   description: 
   clearText: 1
   waitUntilFinished: 1
@@ -15610,22 +15403,67 @@ MonoBehaviour:
   setColor:
     colorRef: {fileID: 0}
     colorVal: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &1559277779
+--- !u!114 &1559277777
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 605
+  itemId: 645
   indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 2042557009}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1559277778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 644
+  indentLevel: 0
+  duration: 5
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &1559277779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 643
+  indentLevel: 0
+  duration: 1
+  fadeOut: 0
+  targetView: {fileID: 1953206147}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 378967307}
 --- !u!114 &1559277780
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
@@ -15634,33 +15472,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 604
-  indentLevel: 1
+  itemId: 641
+  indentLevel: 0
   textObject: {fileID: 1993432748}
   text:
     stringRef: {fileID: 0}
-    stringVal: 'FROM: RESIDENT UNIT, ZONE A
+    stringVal: 'Y ou
 
-      TO: RESIDENT UNIT, ZONE A
+      cann ot
 
+      c on tr  ol
 
-      My love,
-
-
-      I''m sending you this as a transmission because I''m afraid it''ll be lost in
-      the mail. Or because I''m just a coward. I can''t go on like this, knowing that
-      I was the one who killed that little girl. I know what you''re going to say,
-      but that''s the truth. When I pulled that lever, when I switched to the other
-      track, I knew what I was doing. Everyone is calling me a murderer. The feds
-      have been breathing down my neck nonstop in the interrogation room, and all
-      I can remember is the blood... I just can''t do this with myself and everyone
-      around me knowing that I chose to kill her. She had a name, a family who loved
-      her, a future ahead of her... I can''t live with myself like this... Ok, this
-      is too long and pathetic, so I guess goodbye and I wish you all the best. I
-      love you and never stopped. Please don''t forget that, and may you find peace.
-
-
-      Forever Your Snookums (FYS is acronym for rebel group Free YourSelf)'
+      u      s'
   description: 
   clearText: 1
   waitUntilFinished: 1
@@ -15673,31 +15496,22 @@ MonoBehaviour:
     colorVal: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1559277781
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559277355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 603
+  itemId: 640
   indentLevel: 0
-  compareOperator: 0
-  variable: {fileID: 1559277532}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
+  duration: 3
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
 --- !u!114 &1559277782
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15753,8 +15567,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 8177.525
-    y: 63.216866
-    width: 169.82759
+    y: 61.17605
+    width: 171.18645
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15767,11 +15581,130 @@ MonoBehaviour:
   - {fileID: 1559277782}
   - {fileID: 1559277781}
   - {fileID: 1559277780}
+  - {fileID: 1559277775}
   - {fileID: 1559277779}
   - {fileID: 1559277778}
   - {fileID: 1559277777}
   - {fileID: 1559277776}
-  - {fileID: 1559277775}
+  - {fileID: 1559277786}
+--- !u!114 &1559277785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 648
+  indentLevel: 0
+  textObject: {fileID: 2042557009}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Corporate Ending.
+  description: 
+  clearText: 1
+  waitUntilFinished: 1
+  textColor: 0
+  setAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  setColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1559277786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 647
+  indentLevel: 0
+  textObject: {fileID: 2042557009}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 'Thank you for playing.
+
+
+      - Lily Peng: Writer, Programmer, Unity noob
+
+      - Colm Eccles: Artist, Sound Designer, Cat Transformer'
+  description: 
+  clearText: 1
+  waitUntilFinished: 1
+  textColor: 0
+  setAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  setColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1559277787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 661
+  indentLevel: 0
+  duration: 3
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &1559277788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 660
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 2051593603}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1559277789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559277355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b115619cb83b4d6ab8047d0e9407403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 659
+  indentLevel: 0
+  isStartPoint: 0
+  keyMode: 0
+  customKey: 
+  keySeparator: _
+  descriptionMode: 0
+  customDescription: 
+  fireEvent: 1
+  resumeOnLoad: 1
 --- !u!1 &1585102458
 GameObject:
   m_ObjectHideFlags: 0
@@ -16914,11 +16847,11 @@ RectTransform:
   m_Father: {fileID: 1089194869}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: 90}
-  m_SizeDelta: {x: 520, y: 800}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 3, y: -10}
+  m_SizeDelta: {x: 520, y: 500}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1993432750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16931,7 +16864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.11764706, g: 0.77254903, b: 0.011764706, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -16951,48 +16884,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "proctor: Aaaand, you're in. Perfect. Sorry about that. We usually have
-    our employees sign the final contract {i}before{/i} the procedure, but there was
-    a minor mix-up. \nproctor: No worries, we'll just continue as usual.\nproctor:
-    So, let me go over your task. We are Skylight. We keep people safe, but we need
-    you to help us. \nproctor: By having upstanding individuals such as yourself help
-    us keep order, we can ensure a bright future for everybody. \nproctor: You will
-    be reviewing transmissions from all over the country, and if you see something
-    that may be suspicious, make sure to block it before it can spread.\nproctor:
-    The meter on your right measures society's overall feelings of unrest. This is
-    what we're trying to avoid, as it is our goal to keep our nation peaceful and
-    functional.\nproctor: We ask that you take your role seriously and know that retraining
-    may be necessary should you fail. We appreciate your hard work and understanding.\n\nYour
-    job is to block anything that may seem s\n\n\nWe want to keep the people safe,
-    and that's why we need upstanding people such as yourself to help us proctor:
-    Aaaand, you're in. Perfect. Sorry about that. We usually have our employees sign
-    the final contract {i}before{/i} the procedure, but there was a minor mix-up.
-    \nproctor: No worries, we'll just continue as usual.\nproctor: So, let me go over
-    your task. We are Skylight. We keep people safe, but we need you to help us. \nproctor:
-    By having upstanding individuals such as yourself help us keep order, we can ensure
-    a bright future for everybody. \nproctor: You will be reviewing transmissions
-    from all over the country, and if you see something that may be suspicious, make
-    sure to block it before it can spread.\nproctor: The meter on your right measures
-    society's overall feelings of unrest. This is what we're trying to avoid, as it
-    is our goal to keep our nation peaceful and functional.\nproctor: We ask that
-    you take your role seriously and know that retraining may be necessary should
-    you fail. We appreciate your hard work and understanding.\n\nYour job is to block
-    anything that may seem s\n\n\nWe want to keep the people safe, and that's why
-    we need upstanding people such as yourself to help us proctor: Aaaand, you're
-    in. Perfect. Sorry about that. We usually have our employees sign the final contract
-    {i}before{/i} the procedure, but there was a minor mix-up. \nproctor: No worries,
-    we'll just continue as usual.\nproctor: So, let me go over your task. We are Skylight.
-    We keep people safe, but we need you to help us. \nproctor: By having upstanding
-    individuals such as yourself help us keep order, we can ensure a bright future
-    for everybody. \nproctor: You will be reviewing transmissions from all over the
-    country, and if you see something that may be suspicious, make sure to block it
-    before it can spread.\nproctor: The meter on your right measures society's overall
-    feelings of unrest. This is what we're trying to avoid, as it is our goal to keep
-    our nation peaceful and functional.\nproctor: We ask that you take your role seriously
-    and know that retraining may be necessary should you fail. We appreciate your
-    hard work and understanding.\n\nYour job is to block anything that may seem s\n\n\nWe
-    want to keep the people safe, and that's why we need upstanding people such as
-    yourself to help us "
+  m_Text: 
 --- !u!222 &1993432751
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17030,7 +16922,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTextObject: {fileID: 1993432748}
   punchObject: {fileID: 0}
-  writingSpeed: 4000
+  writingSpeed: 1000
   punctuationPause: 0.25
   hiddenTextColor: {r: 1, g: 1, b: 1, a: 0}
   writeWholeWords: 0
@@ -17160,7 +17052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.11764706, g: 0.77254903, b: 0.011764706, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -17204,7 +17096,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2051593604
 RectTransform:
   m_ObjectHideFlags: 0
