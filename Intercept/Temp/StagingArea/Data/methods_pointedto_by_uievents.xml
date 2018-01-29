@@ -1,0 +1,20 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="Fungus.SaveMenu">
+			<method name="Save"/>
+			<method name="Load"/>
+			<method name="FastForward"/>
+			<method name="Rewind"/>
+			<method name="ToggleSaveMenu"/>
+			<method name="Restart"/>
+		</type>
+		<type fullname="Fungus.DialogInput">
+			<method name="SetDialogClickedFlag"/>
+			<method name="SetButtonClickedFlag"/>
+			<method name="SetButtonClickedFlag"/>
+		</type>
+		<type fullname="Fungus.Flowchart">
+			<method name="ExecuteBlock"/>
+		</type>
+	</assembly>
+</linker>
