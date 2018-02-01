@@ -5,4 +5,4 @@ A narrative game where you spy on transmissions sent around the country and bloc
 
 ### For Global Game Jam 2018.  *Theme: Transmission*
 
-Made in Unity with Fungus.
+Made in Unity with [Fungus](https://github.com/snozbot/fungus).
