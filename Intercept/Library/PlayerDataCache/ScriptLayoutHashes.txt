@@ -282,6 +282,7 @@ b1fe2dd7813c7e2a7d1d88450270be0f Assembly-CSharp.dll:Fungus.Conversation
 b3c9beb028b133accef80292fa4e97a1 Assembly-CSharp.dll:Fungus.SetSayDialog
 c6af39c84922e55c0784ffce0da27ec7 Assembly-CSharp.dll:Fungus.ScaleLean
 ab7a115f5e74f7e0ac5dde4d30b1adb9 Assembly-CSharp.dll:Fungus.PlayUsfxrSound
+77d5f260fff2738e1d806afa66247950 Assembly-CSharp.dll:.Scroll
 b4fb7839933fb1618b34a814dd2ec866 Assembly-CSharp.dll:Fungus.Pow
 0711fa5e359f38141961317dedaf6a23 Assembly-CSharp.dll:Fungus.GetText
 c26c68112d9139e39a8e9fc5b14b5918 Assembly-CSharp.dll:Fungus.Lerp
