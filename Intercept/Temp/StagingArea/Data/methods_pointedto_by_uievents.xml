@@ -1,0 +1,19 @@
+<linker>
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEngine.AudioSource">
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+		</type>
+	</assembly>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="Fungus.DialogInput">
+			<method name="SetDialogClickedFlag"/>
+			<method name="SetButtonClickedFlag"/>
+		</type>
+		<type fullname="Fungus.Flowchart">
+			<method name="ExecuteBlock"/>
+		</type>
+	</assembly>
+</linker>
